@@ -212,7 +212,7 @@ class _AddTaskPageState extends State<AddTaskPage> {
       color: _selectedColor,
       isCompleted: 0,
     ));
-    print(value);
+    print("id: " "$value");
   }
 
   _colorPallete() {
