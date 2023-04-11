@@ -92,8 +92,8 @@ class _HomePageState extends State<HomePage> {
       Container(
         padding: const EdgeInsets.only(top: 4),
         height: task.isCompleted == 1
-            ? MediaQuery.of(context).size.height * 0.24
-            : MediaQuery.of(context).size.height * 0.45,
+            ? MediaQuery.of(context).size.height * 0.30
+            : MediaQuery.of(context).size.height * 0.38,
         color: Get.isDarkMode ? darkGreyClr : Colors.white,
         child: Column(
           children: [
